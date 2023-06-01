@@ -10,6 +10,9 @@ namespace calcul
             double b;
             double total;
             char oper;
+
+            System.Console.WriteLine("Hello, semenchik");
+            
             Console.WriteLine("Введите первое число:");
             a = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Введите оператор:");
